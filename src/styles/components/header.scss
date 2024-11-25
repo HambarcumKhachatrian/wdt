@@ -1,0 +1,26 @@
+@import "../variables";
+header {
+	height: 150px;
+	width: 100%;
+	background-color: $prime-color;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.header {
+	width: 90%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header_logo {
+	width: 150px;
+}
+
+.header_list {
+	display: flex;
+	justify-content: space-around;
+	width: 40%;
+}
